@@ -1,0 +1,18 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Blog - Darryl Mitchell</title>
+	<link href="http://darrmitchell.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://darrmitchell.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://darrmitchell.github.io/blog</id>
+	<author>
+		<name>Darryl Mitchell</name>
+		<email>me@darrmit.me</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
