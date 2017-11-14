@@ -42,3 +42,8 @@ ul.posts {
 ul.posts li {  
     list-style: none;
 }
+
+ul.blog li {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
