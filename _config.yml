@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 title: Darryl Mitchell
 description: Website
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
+=======
+name: Darryl Mitchell
+theme: jekyll-theme-midnight
+permalink: /blog/:year/:month/:day/:title
+>>>>>>> parent of 03ff9f8... new theme
